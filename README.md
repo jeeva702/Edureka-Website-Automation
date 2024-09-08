@@ -18,8 +18,8 @@ The key actions automated by this script include:
 Prerequisites:
 
    To run this automation script, you will need:
-       1)Java Development Kit (JDK) 8 or higher
-       2)Selenium WebDriver
-       3)Google Chrome Browser
+       1)Java Development Kit (JDK) 8 or higher.
+       2)Selenium WebDriver.
+       3)Google Chrome Browser.
        4)ChromeDriver – You can download the correct version of ChromeDriver for your Chrome browser from here.
        5)Maven (Optional) – For managing dependencies.
