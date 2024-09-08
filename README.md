@@ -36,23 +36,28 @@ Script Execution:
 Code Explanation:
 
    1) WebDriver Setup: Initializes ChromeDriver and maximizes the browser window:
+      
          WebDriver driver = new ChromeDriver();
          driver.manage().window().maximize();
 
    2) Login Process: Finds the email and password input fields, enters credentials, and submits the login form:
+      
         WebElement mailid = driver.findElement(By.id("si_popup_email"));
         mailid.sendKeys("your-email@example.com");
 
    3) Profile Update: Updates the profile details by locating the corresponding fields and inputting new values:
+      
         WebElement nameupdate = driver.findElement(By.id("fullName"));
         nameupdate.clear();
         nameupdate.sendKeys("Updated Name");
 
    4) Setting Study Plan: Interacts with dropdowns to select days and times:
+      
         WebElement day = driver.findElement(By.xpath("//day-xpath"));
         day.click();
       
    5) Logout Process: Finds and clicks the logout button:
+       
         WebElement logoutButton = driver.findElement(By.xpath("//button[text()='Log Out']"));
         logoutButton.click();
 
